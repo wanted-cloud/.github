@@ -1,7 +1,5 @@
 # wanted-cloud/.github
 
-# mrlm-net/.github
-
 Here you can find all the documentation and guidelines related to this organization.
 
 | Package | `wanted-cloud/.gihub` |
