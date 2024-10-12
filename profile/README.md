@@ -6,7 +6,7 @@ Here you can find [WANTED.solutions](https://wanted.solutions) Cloud Architectur
 
 - [Microsoft Azure](./../docs/framework/microsoft-azure/README.md)
 
-## Supported Cloud Providers
+## Supported IaC Providers
 
 - [Terraform](./../docs/framework/terraform/README.md)
 
