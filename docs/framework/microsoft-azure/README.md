@@ -1,1 +1,0 @@
-# wanted-cloud/microsoft-azure-caf
