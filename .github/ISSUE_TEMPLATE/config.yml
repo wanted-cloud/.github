@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/orgs/wanted-cloud/discussions
+    about: For general questions and community discussions, please use Discussions.
+  - name: WANTED.solutions Support
+    url: mailto:support@wanted.solutions
+    about: For direct support, contact us via email.
+  - name: Terraform Registry
+    url: https://registry.terraform.io/namespaces/wanted-cloud
+    about: Browse our published Terraform modules.

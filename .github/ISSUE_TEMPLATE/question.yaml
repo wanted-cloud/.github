@@ -1,0 +1,38 @@
+name: Question / Support
+description: Ask a question about WANTED.solutions CAF building blocks. Consider using Discussions for general questions.
+title: "[Question]: "
+labels: ["question"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before opening an issue**, consider using [GitHub Discussions](https://github.com/orgs/wanted-cloud/discussions) for general questions — you may find an existing answer there!
+
+        Use this template for specific technical questions about our modules.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Module / Area
+      options:
+        - Microsoft Azure
+        - Amazon Web Services (AWS)
+        - Google Cloud Platform (GCP)
+        - Terraform / OpenTofu Guidelines
+        - General / Organization
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Ask your question clearly. Include any relevant context.
+    validations:
+      required: true
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What Have You Tried?
+      description: What have you already tried? This helps avoid duplicate suggestions.
+    validations:
+      required: false
