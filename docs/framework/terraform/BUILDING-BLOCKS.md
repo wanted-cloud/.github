@@ -1,6 +1,6 @@
-# WANTED.solutions Terraform Framework - Building Blocks
+# Building Blocks
 
-A **building block** is the smallest reusable unit of our Terraform framework. It wraps exactly one cloud resource together with the children that resource owns, and nothing else. Building blocks are opinionated on structure and deliberately unopinionated on composition - wiring blocks together is the job of a [root module](./ROOT-MODULES.md).
+A **building block** is the smallest reusable unit of the [WANTED.solutions Cloud Framework](./README.md). It wraps exactly one cloud resource together with the children that resource owns, and nothing else. Building blocks are opinionated on structure and deliberately unopinionated on composition - wiring blocks together is the job of a [root module](./ROOT-MODULES.md).
 
 ## Table of Contents
 
