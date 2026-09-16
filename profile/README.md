@@ -1,6 +1,6 @@
 <div align="center">
 
-# WANTED.solutions Cloud Architecture Framework
+# WANTED.solutions Cloud Framework
 
 **Production-ready building blocks for enterprise cloud adoption**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## What is the WANTED.solutions CAF?
+## What is the WANTED.solutions Cloud Framework?
 
 We build and maintain **open-source Terraform modules** and infrastructure building blocks aligned with the **Cloud Adoption Framework (CAF)**. Our modules are designed for teams that need:
 
@@ -38,10 +38,17 @@ We build and maintain **open-source Terraform modules** and infrastructure build
 
 Explore our modules on the [Terraform Registry](https://registry.terraform.io/namespaces/wanted-cloud) or browse our framework documentation:
 
-- [Azure CAF Guidelines](./docs/framework/azure/README.md)
-- [Terraform Building Blocks](./docs/framework/terraform/BUILDING-BLOCKS.md)
-- [Naming Conventions](./docs/framework/azure/NAMING-CONVENTION.md)
-- [Landing Zones](./docs/framework/azure/LANDING-ZONE.md)
+**The framework** — how we build, compose and deliver infrastructure as code:
+
+- [Framework overview](https://github.com/wanted-cloud/.github/blob/main/docs/framework/terraform/README.md) — the three layers
+- [Building Blocks](https://github.com/wanted-cloud/.github/blob/main/docs/framework/terraform/BUILDING-BLOCKS.md) — one resource per module
+- [Root Modules](https://github.com/wanted-cloud/.github/blob/main/docs/framework/terraform/ROOT-MODULES.md) — composing a domain
+- [Workspaces](https://github.com/wanted-cloud/.github/blob/main/docs/framework/terraform/WORKSPACES.md) — environments, state and delivery
+
+**Platforms:**
+
+- [Azure](https://github.com/wanted-cloud/.github/blob/main/docs/framework/azure/README.md) — [Landing Zone](https://github.com/wanted-cloud/.github/blob/main/docs/framework/azure/LANDING-ZONE.md), [Naming Convention](https://github.com/wanted-cloud/.github/blob/main/docs/framework/azure/NAMING-CONVENTION.md)
+- [AWS](https://github.com/wanted-cloud/.github/blob/main/docs/framework/aws/README.md) · [Google Cloud](https://github.com/wanted-cloud/.github/blob/main/docs/framework/gcp/README.md) · [OpenTofu](https://github.com/wanted-cloud/.github/blob/main/docs/framework/opentofu/README.md)
 
 ## Community
 
@@ -49,11 +56,11 @@ We welcome contributions from the community! Before getting involved, please rea
 
 | Document | Description |
 | :-- | :-- |
-| [Contributing Guidelines](./docs/CONTRIBUTING.md) | How to contribute code, docs, and ideas |
-| [Code of Conduct](./docs/CODE_OF_CONDUCT.md) | Our community standards |
-| [Security Policy](./docs/SECURITY.md) | How to report security vulnerabilities |
-| [Support Guidelines](./docs/SUPPORT.md) | How to get help |
-| [Governance](./docs/GOVERNANCE.md) | How decisions are made |
+| [Contributing Guidelines](https://github.com/wanted-cloud/.github/blob/main/docs/CONTRIBUTING.md) | How to contribute code, docs, and ideas |
+| [Code of Conduct](https://github.com/wanted-cloud/.github/blob/main/docs/CODE_OF_CONDUCT.md) | Our community standards |
+| [Security Policy](https://github.com/wanted-cloud/.github/blob/main/docs/SECURITY.md) | How to report security vulnerabilities |
+| [Support Guidelines](https://github.com/wanted-cloud/.github/blob/main/docs/SUPPORT.md) | How to get help |
+| [Governance](https://github.com/wanted-cloud/.github/blob/main/docs/GOVERNANCE.md) | How decisions are made |
 
 ---
 
